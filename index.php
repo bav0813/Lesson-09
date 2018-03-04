@@ -27,6 +27,13 @@ switch ($page)
 
         include_once 'template' . DIRECTORY_SEPARATOR . 'contact.php';
         break;
+
+    case 'gallery':
+        $title = 'Gallery';
+        $h1 = 'Gallery title';
+        include_once 'template' . DIRECTORY_SEPARATOR . 'gallery.php';
+        break;
+
     case '':
     case 'home':
     default:

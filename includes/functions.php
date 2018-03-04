@@ -197,6 +197,7 @@ function getTopNavigation()
         ['href' => 'index.php?page=home', 'title' => 'Home page'],
         ['href' => 'index.php?page=about', 'title' => 'About us'],
         ['href' => 'index.php?page=contact', 'title' => 'Contact us'],
+        ['href' => 'index.php?page=gallery', 'title' => 'Gallery'],
     ];
 
     if (!empty($pages)) {
